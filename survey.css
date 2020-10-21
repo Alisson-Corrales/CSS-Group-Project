@@ -10,14 +10,36 @@ html{
 /*navigation bar*/
 nav{
     display: block;
-    background-color: rgb(255, 248, 239);
-    padding: 2rem 2rem;
+    background-color: rgb(255, 252, 223);
+    padding: 4rem 15rem;
+    text-align: right;
+}
+
+.logo{
+    position: absolute;
+    left: 4rem;
+    top: 2rem;
+}
+
+.navbar a{
+    padding: 12px 10px;
+    color: rgb(236, 100, 141);
+}
+.navbar a:active{
+    border-radius: 2px;
+    background-color: royalblue;
+}
+.navbar a:hover{
+    overflow: auto;
+    color: rgb(57, 97, 206);
 }
 a{
+    margin-right: 20px;
     font-family: fantasy;
     text-decoration: none;
-    color: rgb(236, 100, 141);
 }
 li{
     list-style-type: none;
+    display: inline-block;
+    margin-left: auto;
 }
