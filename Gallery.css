@@ -10,7 +10,7 @@ main{
 }
 
 img{
-  max-width: 1000px;
+  max-width: 250px;
   width: 200%;
 }
 
@@ -22,7 +22,7 @@ img{
 
 
 h1{
-  font-size: 200px;
+  font-size: 80px;
   text-align: center;
 }
 
