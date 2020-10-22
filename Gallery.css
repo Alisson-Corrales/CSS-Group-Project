@@ -9,9 +9,16 @@ main{
 
 }
 
-img{
+.Floats1{
   max-width: 250px;
   width: 200%;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    left: 4rem;
+    top: 2rem;
 }
 
 
@@ -24,8 +31,9 @@ img{
 h1{
   font-size: 80px;
   text-align: center;
+  font-family: 'Sarpanch', sans-serif;
+  text-shadow: 1vmin 1vmin 0 #00ffff
 }
-
 html{
   /*SVG background DO NOT touch pls*/
   background-color: #ffdf8e;

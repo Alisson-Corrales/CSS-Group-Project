@@ -24,10 +24,14 @@ html{
 h1{
     font-size: 80px;
     text-align: center;
+    font-family: 'Sarpanch', sans-serif;
+    text-shadow: 1vmin 1vmin 0 #00ffff
   }
   h2{
     font-size: 70px;
     text-align: center;
+    font-family: 'Sarpanch', sans-serif;
+    text-shadow: 1vmin 1vmin 0 #00ffff
   }
 
 
