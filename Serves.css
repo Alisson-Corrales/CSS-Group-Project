@@ -1,5 +1,14 @@
 p {
+    font-size: 30px;
     text-align: center;
+    color: seagreen;
+}
+
+i{
+    font-size: 20px;
+    text-align: center;
+    color: seagreen;
+
 }
 
 html{
@@ -11,6 +20,19 @@ html{
     /*background by SVGBackgrounds.com*/
     color: rgb(63, 78, 143);
 }
+
+h1{
+    font-size: 80px;
+    text-align: center;
+  }
+  h2{
+    font-size: 70px;
+    text-align: center;
+  }
+
+
+
+
 
 /*navigation bar*/
 nav{
