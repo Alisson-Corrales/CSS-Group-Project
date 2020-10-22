@@ -50,6 +50,7 @@ nav{
   background-color: rgb(255, 252, 223);
   padding: 4rem 5rem;
   text-align: right;
+  box-shadow: 10px 10px 7px;
 }
 
 .navbar a{
