@@ -38,7 +38,33 @@
                 <label for="username">Username:</label>
                 <input type="text" name="user.name" id="username">
             </li>
+            <li>
+                <label for="mail">Email:</label>
+                <input type="text" name="email" id="email">
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+            </li>
+            <li>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" name="confirm password" id="conPassword">
+            </li>
         </ul>
+
+        <p>
+            Would you like to be sent coupons and notifications via the email you provided?
+                <ul>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="wantsEmails" class="question">
+                </ul>
+                <ul>
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="notWantsEmails" class="question">
+                </ul>
+        </p>
+
+        <input type="submit" class="submit">
     </fieldset>
 </body>
 
