@@ -47,9 +47,11 @@ a{
     top: 2rem;
 }
 
+/*the sign up layout*/
 legend{
-    font-size: larger;
+    font-size: 1.8rem;
     color: #667de6;
+    font-family: fantasy;
 }
 fieldset{
     position: relative;
@@ -59,6 +61,8 @@ fieldset{
     border-radius: 5px;
     box-shadow: 10px 10px 7px;
 }
+
+/*the actual sign up stuff*/
 li{
     position: relative;
     display: block;
@@ -71,6 +75,7 @@ label{
 input, textarea{
     box-sizing: border-box;
     width: 200px;
+    margin: 5px;
 }
 p{
     position: relative;
@@ -83,3 +88,12 @@ p{
     position: relative;
     left: 29rem;
 }
+
+/*footer*/
+footer{
+    position: relative;
+    text-align: center;
+    top: 70px;
+    bottom: 5px auto;
+  }
+  
