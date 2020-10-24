@@ -18,7 +18,7 @@ nav{
 }
 
 .navbar a{
-    padding: 11px;
+    padding: 20px;
     color: #667de6;
     font-size: 22px;
     
@@ -31,14 +31,20 @@ nav{
     color: #384daa;
 }
 a{
-    margin-right: 20px;
     font-family: fantasy;
     text-decoration: none;
 }
 li{
     list-style-type: none;
     display: inline-block;
-    margin-left: auto;
+    margin-left: 20px;
+}
+/*searchbar*/
+.Search{
+    display: block;
+    align-items: right;
+    top: 10rem;
+    margin-left: 77rem;
 }
 
 /*images(s)*/
