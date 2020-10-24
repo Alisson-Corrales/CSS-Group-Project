@@ -10,16 +10,14 @@ html{
 
 /*navigation bar*/
 nav{
-    display: absolute;
     background-color: #fffcdf;
-    padding: 4rem 5rem;
-    text-align: right;
+    padding: 1.8rem 0;
     box-shadow: 10px 10px 7px;
 }
 .navbar a{
-    padding: 11px;
+    padding: 20px;
     color: #667de6;
-    font-size: 22px;
+    font-size: 25.5px;
 }
 .navbar a:active{
     border-radius: 2px;
@@ -28,23 +26,20 @@ nav{
 .navbar a:hover{
     color: #384daa;
 }
-a{
-    margin-right: 20px;
+.navbar a{
     font-family: fantasy;
     text-decoration: none;
 }
 .navbar li{
     list-style-type: none;
-    margin-left: auto;
     display: inline-block;
 }
-
-/*images(s)*/
-.logo{
-    display: block;
-    position: absolute;
-    left: 4rem;
-    top: 2rem;
+/*searchbar*/
+.Search{
+    position: relative;
+    align-items: right;
+    bottom: 2.3rem;
+    margin-left: 70rem;
 }
 
 /*the sign up layout*/
@@ -63,23 +58,30 @@ fieldset{
 }
 
 /*the actual sign up stuff*/
-li{
+.form li{
     position: relative;
     display: block;
+    top: 20px;
 }
-label{
+.form label{
     display: inline-block;
     width: 200px;
     text-align: right;
 }
-input, textarea{
+.form input, textarea{
     box-sizing: border-box;
     width: 200px;
     margin: 5px;
+    top: 25px;
 }
 p{
     position: relative;
     left: 7rem;
+    top: 34.5px;
+}
+.form ul{
+    position: relative;
+    top: 25px;
 }
 .question{
     width: 50px;
@@ -87,6 +89,13 @@ p{
 .submit{
     position: relative;
     left: 29rem;
+}
+
+/*logo*/
+.logo{
+    position: relative;
+    float: right;
+    bottom: 13.5rem;
 }
 
 /*footer*/
