@@ -3,6 +3,18 @@ p {
     text-align: center;
     color: seagreen;
     background-color: #fffcdf;
+    padding: 20px;
+    word-spacing: 0px;
+}
+
+footer{
+
+    text-align: center;
+    color: seagreen;
+ 
+    word-spacing: 0px;
+
+
 }
 
 i{
