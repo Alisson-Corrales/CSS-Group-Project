@@ -42,42 +42,36 @@ html{
 
 /*navigation bar*/
 nav{
-  display: block;
-  background-color: rgb(255, 252, 223);
-  padding: 4rem 5rem;
-  text-align: right;
+  background-color: #fffcdf;
+  padding: 1.8rem 0;
   box-shadow: 10px 10px 7px;
 }
-
 .navbar a{
-  padding: 11px;
-  color: rgb(102, 125, 230);
-  font-size: 22px;
+  padding: 20px;
+  color: #667de6;
+  font-size: 25.5px;
 }
 .navbar a:active{
   border-radius: 2px;
-  background-color: rgb(102, 125, 230);
+  background-color: #667de6;
 }
 .navbar a:hover{
   color: #384daa;
 }
 a{
-  margin-right: 20px;
   font-family: fantasy;
   text-decoration: none;
 }
 li{
   list-style-type: none;
   display: inline-block;
-  margin-left: auto;
 }
-
-/*images(s)*/
-.logo{
-  display: block;
-  position: absolute;
-  left: 4rem;
-  top: 2rem;
+/*searchbar*/
+.Search{
+  position: relative;
+  align-items: right;
+  bottom: 2.3rem;
+  margin-left: 70rem;
 }
 
 /*footer*/

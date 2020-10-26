@@ -10,18 +10,14 @@ html{
 
 /*navigation bar*/
 nav{
-    display: absolute;
     background-color: #fffcdf;
-    padding: 4rem 5rem;
-    text-align: right;
+    padding: 1.8rem 0;
     box-shadow: 10px 10px 7px;
 }
-
 .navbar a{
     padding: 20px;
     color: #667de6;
-    font-size: 22px;
-    
+    font-size: 25.5px;
 }
 .navbar a:active{
     border-radius: 2px;
@@ -37,32 +33,24 @@ a{
 li{
     list-style-type: none;
     display: inline-block;
-    margin-left: 20px;
 }
 /*searchbar*/
 .Search{
-    display: block;
+    position: relative;
     align-items: right;
-    top: 10rem;
-    margin-left: 77rem;
+    bottom: 2.3rem;
+    margin-left: 70rem;
 }
 
 /*images(s)*/
 .logo{
     display: block;
-    position: absolute;
-    left: 4rem;
-    top: 2rem;
-}
-.homepool{
-    display: block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto 100%;
     top: 35px;
-    box-shadow: 10px 10px 7px;
-    /*photo from Nightingale Art House on Pexels*/
+    height: 10rem;
+    width: 30rem;
 }
 
 /*fake reviews*/
@@ -72,6 +60,7 @@ p{
     top: 15rem;
     left:5rem;
     font-size: 25px;
+    font-family: fantasy;
     background-color: #fffcdf;
     border-radius: 4px;
     padding: 7rem;
