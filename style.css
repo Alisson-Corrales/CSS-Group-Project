@@ -42,29 +42,28 @@ li{
     margin-left: 70rem;
 }
 
-/*images(s)*/
+/*images*/
 .logo{
     display: block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    top: 35px;
+    top: 45px;
     height: 10rem;
-    width: 30rem;
+    width: 33rem;
 }
-
 /*fake reviews*/
-p{
-    display: inline;
+pre{
+    display: inline-block;
     position: relative;
-    top: 15rem;
-    left:5rem;
+    top: 5rem;
+    left: 2.4rem;
+    text-align: center;
     font-size: 25px;
     font-family: fantasy;
     background-color: #fffcdf;
     border-radius: 4px;
-    padding: 7rem;
-    margin-left: 2rem;
+    padding: 5rem;
     box-shadow: 10px 10px 7px;
 }
 
@@ -72,6 +71,6 @@ p{
 footer{
     position: relative;
     text-align: center;
-    top: 450px;
+    top: 150px;
     bottom: 5px auto;
 }

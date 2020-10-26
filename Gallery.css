@@ -41,6 +41,9 @@ html{
 }
 
 /*navigation bar*/
+header{
+  margin-top: -12.53rem; /*navbar goes down without this, i wasn't sure how else to fix it*/
+}
 nav{
   background-color: #fffcdf;
   padding: 1.8rem 0;
